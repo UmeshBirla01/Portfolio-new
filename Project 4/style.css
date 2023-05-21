@@ -1,0 +1,114 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 32px;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    
+    color: #666;
+}
+
+.developer{
+    background-image: url(./images/developer.png);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.developer h1{
+    /* background-color: wheat; */
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 100px;
+    font-size: 60px;
+    color:#f4f4f4;
+    position: absolute;
+    min-width: 814px;
+    top: 53px;
+    left: 313px;
+    letter-spacing: 2px;
+    font-weight: 400px;
+}
+
+.text1{
+    font-size: 30px;
+}
+.self-description{
+    width: 100%;
+    background: #000;
+}
+.self-description h2{
+    text-align: center;
+    margin-top: 0%;
+    padding: 80px 212px;
+    font-style: normal;
+    color: white;
+    font-size: 60px;
+}
+
+.text2{
+    font-size: 120px;
+}
+.card-section{
+    padding: 20px 80px;
+    margin-bottom: 20px;
+}
+
+.card-container{
+     display: flex;
+     justify-content: space-evenly; 
+     flex-wrap: wrap;
+     gap: 30px; 
+     margin-top: 20px;  
+}
+.card{
+    width: 320px;
+    height: 450px;  
+    font-size: 14px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+}
+.para1{
+    padding: 15px;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    color: white;
+    font-size: 19px;
+}
+
+.contact_me{
+    background-color: #515603;
+    padding: 0 100px;
+    padding-bottom: 50px;
+}
+.contact_me h2{
+    font-size: 3em;
+}
+
+.about{
+    background-color: #722300;
+    padding: 0 100px;
+    padding-bottom: 50px;
+}
+
+.about h2{
+    font-size: 3em;
+}
+
+footer{
+    min-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0;
+    background-color: black;
+    color: white;
+}
